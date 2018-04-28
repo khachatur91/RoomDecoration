@@ -1,0 +1,48 @@
+{
+  "initial": [
+    {
+      "type": "atlas",
+      "key": "animals",
+      "textureURL": "assets/farm/atlas/animals.png",
+      "atlasURL": "assets/farm/atlas/animals.json",
+      "atlasData": null,
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "background",
+      "textureURL": "assets/farm/atlas/background.png",
+      "atlasURL": "assets/farm/atlas/background.json",
+      "atlasData": null,
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "ui",
+      "textureURL": "assets/farm/atlas/ui.png",
+      "atlasURL": "assets/farm/atlas/ui.json",
+      "atlasData": null,
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "gameData",
+      "url": "assets/farm/gameData.json",
+      "overwrite": false
+    },
+    {
+      "type": "json",
+      "key": "backgroundData",
+      "url": "assets/farm/backgroundData.json",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "autoDecode": true,
+      "key": "photo",
+      "urls": [
+        "assets/farm/audio/photo.mp3"
+      ]
+    }
+  ]
+}
