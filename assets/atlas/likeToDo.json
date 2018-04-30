@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "baseball",
+	"frame": {"x":2915,"y":263,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54}
+},
+{
+	"filename": "BeachBackground",
+	"frame": {"x":2,"y":2,"w":1364,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1364,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "football",
+	"frame": {"x":2946,"y":197,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+{
+	"filename": "gym",
+	"frame": {"x":3380,"y":2,"w":110,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":44},
+	"sourceSize": {"w":110,"h":44}
+},
+{
+	"filename": "HomeBackground",
+	"frame": {"x":1369,"y":2,"w":1364,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1364,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "iceSkate",
+	"frame": {"x":2736,"y":228,"w":176,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":157},
+	"sourceSize": {"w":177,"h":157}
+},
+{
+	"filename": "ParkBackground",
+	"frame": {"x":2,"y":1029,"w":1364,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1364,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "read",
+	"frame": {"x":3265,"y":2,"w":112,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":102},
+	"sourceSize": {"w":112,"h":102}
+},
+{
+	"filename": "skate",
+	"frame": {"x":2736,"y":79,"w":207,"h":146},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":207,"h":146},
+	"sourceSize": {"w":207,"h":146}
+},
+{
+	"filename": "skateboard",
+	"frame": {"x":2736,"y":2,"w":288,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":288,"h":74},
+	"sourceSize": {"w":288,"h":74}
+},
+{
+	"filename": "SnowBackground",
+	"frame": {"x":2,"y":2056,"w":1364,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1364,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "surf",
+	"frame": {"x":3027,"y":2,"w":235,"h":370},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":370},
+	"sourceSize": {"w":235,"h":370}
+},
+{
+	"filename": "tennis",
+	"frame": {"x":2915,"y":228,"w":25,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":25},
+	"sourceSize": {"w":25,"h":25}
+},
+{
+	"filename": "videoGames",
+	"frame": {"x":2946,"y":79,"w":69,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":115},
+	"sourceSize": {"w":69,"h":115}
+},
+{
+	"filename": "volleyball",
+	"frame": {"x":2972,"y":263,"w":41,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":41},
+	"sourceSize": {"w":41,"h":41}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "likeToDo.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":4096},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a08751a11aacb8a18b66c664feb39cf9:5087469b96e00c5b5974ed9a47d6ba83:4a9751bc62d86bd944f12640de8d77c0$"
+}
+}

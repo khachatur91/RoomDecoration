@@ -1,0 +1,228 @@
+{"frames": [
+
+{
+	"filename": "Background",
+	"frame": {"x":2,"y":2,"w":1364,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1364,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "ballon-ride",
+	"frame": {"x":1578,"y":885,"w":113,"h":221},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":221},
+	"sourceSize": {"w":113,"h":221}
+},
+{
+	"filename": "canteen-purple",
+	"frame": {"x":1369,"y":959,"w":189,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":122},
+	"sourceSize": {"w":189,"h":122}
+},
+{
+	"filename": "car-ride",
+	"frame": {"x":1369,"y":2,"w":437,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":437,"h":176},
+	"sourceSize": {"w":437,"h":176}
+},
+{
+	"filename": "car-ride2",
+	"frame": {"x":1694,"y":1081,"w":185,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":165},
+	"sourceSize": {"w":185,"h":165}
+},
+{
+	"filename": "child-blue-violet",
+	"frame": {"x":2029,"y":29,"w":12,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":23},
+	"sourceSize": {"w":12,"h":23}
+},
+{
+	"filename": "child-burgundy",
+	"frame": {"x":2029,"y":55,"w":12,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":23},
+	"sourceSize": {"w":12,"h":23}
+},
+{
+	"filename": "child-gray",
+	"frame": {"x":2029,"y":81,"w":11,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":24},
+	"sourceSize": {"w":11,"h":24}
+},
+{
+	"filename": "child-green",
+	"frame": {"x":2029,"y":108,"w":11,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":24},
+	"sourceSize": {"w":11,"h":24}
+},
+{
+	"filename": "child-orange",
+	"frame": {"x":2029,"y":135,"w":11,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":23},
+	"sourceSize": {"w":11,"h":23}
+},
+{
+	"filename": "child-purple",
+	"frame": {"x":2029,"y":161,"w":11,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":23},
+	"sourceSize": {"w":11,"h":23}
+},
+{
+	"filename": "child-red",
+	"frame": {"x":2037,"y":187,"w":9,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":18},
+	"sourceSize": {"w":9,"h":18}
+},
+{
+	"filename": "child-yellow-light",
+	"frame": {"x":2029,"y":2,"w":12,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":24},
+	"sourceSize": {"w":12,"h":24}
+},
+{
+	"filename": "child-yellow",
+	"frame": {"x":2023,"y":187,"w":11,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":23},
+	"sourceSize": {"w":11,"h":23}
+},
+{
+	"filename": "circus",
+	"frame": {"x":2,"y":1249,"w":179,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":181},
+	"sourceSize": {"w":179,"h":181}
+},
+{
+	"filename": "dolphin-show",
+	"frame": {"x":1369,"y":431,"w":353,"h":197},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":197},
+	"sourceSize": {"w":353,"h":197}
+},
+{
+	"filename": "giant-wheel-ride",
+	"frame": {"x":1699,"y":844,"w":205,"h":234},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":234},
+	"sourceSize": {"w":205,"h":234}
+},
+{
+	"filename": "horse-ride",
+	"frame": {"x":1809,"y":162,"w":211,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":150},
+	"sourceSize": {"w":211,"h":150}
+},
+{
+	"filename": "multiple-ticket-window",
+	"frame": {"x":1369,"y":631,"w":240,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":151},
+	"sourceSize": {"w":240,"h":151}
+},
+{
+	"filename": "park-gate",
+	"frame": {"x":1769,"y":315,"w":248,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":248,"h":255},
+	"sourceSize": {"w":248,"h":255}
+},
+{
+	"filename": "pirate-ship",
+	"frame": {"x":1369,"y":181,"w":397,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":397,"h":247},
+	"sourceSize": {"w":397,"h":247}
+},
+{
+	"filename": "puppet-show",
+	"frame": {"x":1369,"y":785,"w":206,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":171},
+	"sourceSize": {"w":206,"h":171}
+},
+{
+	"filename": "roller-coaster",
+	"frame": {"x":1725,"y":573,"w":310,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":268},
+	"sourceSize": {"w":310,"h":268}
+},
+{
+	"filename": "ticket-window-2",
+	"frame": {"x":1612,"y":631,"w":80,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":74},
+	"sourceSize": {"w":80,"h":74}
+},
+{
+	"filename": "ticket-window",
+	"frame": {"x":1612,"y":708,"w":60,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":75},
+	"sourceSize": {"w":60,"h":75}
+},
+{
+	"filename": "washroom",
+	"frame": {"x":1578,"y":786,"w":118,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":96},
+	"sourceSize": {"w":118,"h":96}
+},
+{
+	"filename": "water-fall",
+	"frame": {"x":1809,"y":2,"w":217,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":217,"h":157},
+	"sourceSize": {"w":217,"h":157}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "amusementPark3.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:304e07246594ee5d5c9154222a3ceeed:8d018b741ffc3a24fce2178ccca116d0:11e428d561f5127e862d229d45e2898a$"
+}
+}

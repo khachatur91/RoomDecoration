@@ -9,12 +9,12 @@ export default class BootState extends Phaser.State {
     this.fontsLoaded = this.fontsLoaded.bind(this)
 
     const lang = this.getParameterByName('lang')
-    const sound = this.getParameterByName('sound')
+    const sfx = this.getParameterByName('sound')
     const user = this.getParameterByName('user')
     const roomID = this.getParameterByName('roomID')
 
     this.game.lang = lang || 'en'
-    this.game.sound = sound || 'true'
+    this.game.sfx = sfx || 'true'
     this.game.roomID = roomID
     this.game.user = user
 
@@ -36,7 +36,6 @@ export default class BootState extends Phaser.State {
   }
 
   preload () {
-    console.log(window)
     this.game.plugins.add(PhaserNineSlice.Plugin)
     WebFont.load({
       google: {
@@ -45,7 +44,7 @@ export default class BootState extends Phaser.State {
       active: this.fontsLoaded
     })
     this.game.load.image('logo', 'assets/logo.png')
-    this.game.load.json('audioData', `assets/${this.game.theme}/audioData.json`)
+    this.game.load.json('audioData', `assets/audioData.json`)
     this.game.load.start()
   }
 

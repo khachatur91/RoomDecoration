@@ -1,35 +1,6 @@
 {
   "scenes": [
     {
-      "key": "accessories",
-      "backgrounds": [
-        "Background"
-      ],
-      "categories":[
-        {
-          "key": "main",
-          "items": [
-            {
-              "key": "computer",
-              "image": "computer"
-            },
-            {
-              "key": "pillow",
-              "image": "pillow"
-            },
-            {
-              "key": "plant",
-              "image": "plant"
-            },
-            {
-              "key": "trophy",
-              "image": "trophy"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "amusementPark1",
       "backgrounds": [
         "Background"
@@ -109,6 +80,47 @@
             {
               "key": "waterfall",
               "image": "waterfall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "amusementPark2",
+      "backgrounds": [
+        "Background"
+      ],
+      "categories":[
+        {
+          "key": "main",
+          "items": [
+            {
+              "key": "elephant",
+              "image": "elephant"
+            },
+            {
+              "key": "gate",
+              "image": "gate"
+            },
+            {
+              "key": "horseRide",
+              "image": "horseRide"
+            },
+            {
+              "key": "pirateShip",
+              "image": "pirateShip"
+            },
+            {
+              "key": "rollerCoaster",
+              "image": "rollerCoaster"
+            },
+            {
+              "key": "toyTrain",
+              "image": "toyTrain"
+            },
+            {
+              "key": "zoo",
+              "image": "zoo"
             }
           ]
         }

@@ -11,41 +11,26 @@ export default class GameState extends Phaser.State {
   static STATE_INIT = 3
 
   init () {
-    this.game.stage.disableVisibilityChange = true
-    // default settings
-    this.settings = {
-      enableVoice: true,
-      enableLabel: true,
-      enablePinyin: false
-    }
+      this.game.stage.disableVisibilityChange = true
+      // default settings
+      this.settings = {
+          enableVoice: true,
+          enableLabel: true,
+          enablePinyin: false
+      }
 
-    this.stage.backgroundColor = '#9df6e4'
+      this.stage.backgroundColor = '#9df6e4'
 
-    this.items = this.game.cache.getJSON('gameData').levels
-    this.locale = this.game.cache.getJSON('locale')
+      this.locale = this.game.cache.getJSON('locale')
 
-    this.audioManager = AudioManager.instance
+      this.audioManager = AudioManager.instance
 
-    this.gameContainer = this.game.add.group()
-    this.hud = new Hud(this.items)
+      this.gameContainer = this.game.add.group()
+      this.hud = new Hud(this.game, this.items)
 
-    this.animalsList = this.levelAnimals[0]
+      this.createBackground()
 
-    this.createBackground()
-
-    this.gameState = GameState.STATE_INIT
-
-    this.restartPopup = new RestartPopup(this.game)
-    this.restartPopup.submitAction.add(this.onRestart, this)
-    this.game.world.add(this.restartPopup)
-    this.restartPopup.visible = false
-  }
-
-  onRestart () {
-    this.photosContainer.removeChildren()
-    this.photosContainer.visible = false
-    this.photosContainer.destroy()
-    this.startLevel()
+      this.gameState = GameState.STATE_INIT
   }
 
   screenshot (addLabel) {
@@ -116,7 +101,7 @@ export default class GameState extends Phaser.State {
     }
   }
 
-  createBackground (items) {
-    this.game.add.tileSprite(0, 0, 1920, 1024, 'background', 'sky', this.container1)
+  createBackground () {
+    this.gameContainer.create(0, 0, 'amusementPark1', 'Background', true)
   }
 }

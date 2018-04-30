@@ -1,0 +1,76 @@
+{"frames": [
+
+{
+	"filename": "Background",
+	"frame": {"x":2,"y":2,"w":1363,"h":1024},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":1363,"h":1024},
+	"sourceSize": {"w":1364,"h":1024}
+},
+{
+	"filename": "elephant",
+	"frame": {"x":1368,"y":735,"w":118,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":106},
+	"sourceSize": {"w":118,"h":106}
+},
+{
+	"filename": "gate",
+	"frame": {"x":1765,"y":299,"w":197,"h":269},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":269},
+	"sourceSize": {"w":197,"h":269}
+},
+{
+	"filename": "horseRide",
+	"frame": {"x":1489,"y":735,"w":113,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":164},
+	"sourceSize": {"w":113,"h":164}
+},
+{
+	"filename": "pirateShip",
+	"frame": {"x":1742,"y":571,"w":193,"h":172},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":172},
+	"sourceSize": {"w":193,"h":172}
+},
+{
+	"filename": "rollerCoaster",
+	"frame": {"x":1368,"y":384,"w":371,"h":348},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":371,"h":348},
+	"sourceSize": {"w":371,"h":348}
+},
+{
+	"filename": "toyTrain",
+	"frame": {"x":1765,"y":2,"w":251,"h":294},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":251,"h":294},
+	"sourceSize": {"w":251,"h":294}
+},
+{
+	"filename": "zoo",
+	"frame": {"x":1368,"y":2,"w":394,"h":379},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":394,"h":379},
+	"sourceSize": {"w":394,"h":379}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "amusementPark2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d476b3ba1fc4d00ac9db8ecd5cd5fe04:0530b4a2afbced22c7df84900e07ff66:e43d40690020ab5193485f5d06919893$"
+}
+}

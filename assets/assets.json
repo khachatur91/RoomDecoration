@@ -2,17 +2,25 @@
   "initial": [
     {
       "type": "atlas",
-      "key": "accessories",
-      "textureURL": "assets/atlas/accessories.png",
-      "atlasURL": "assets/atlas/accessories.json",
+      "key": "amusementPark1",
+      "textureURL": "assets/atlas/amusementPark1.png",
+      "atlasURL": "assets/atlas/amusementPark1.json",
       "atlasData": null,
       "overwrite": false
     },
     {
       "type": "atlas",
-      "key": "amusementPark1",
-      "textureURL": "assets/atlas/amusementPark1.png",
-      "atlasURL": "assets/atlas/amusementPark1.json",
+      "key": "amusementPark2",
+      "textureURL": "assets/atlas/amusementPark2.png",
+      "atlasURL": "assets/atlas/amusementPark2.json",
+      "atlasData": null,
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "amusementPark3",
+      "textureURL": "assets/atlas/amusementPark3.png",
+      "atlasURL": "assets/atlas/amusementPark3.json",
       "atlasData": null,
       "overwrite": false
     },
