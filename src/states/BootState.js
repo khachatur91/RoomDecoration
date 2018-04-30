@@ -9,12 +9,12 @@ export default class BootState extends Phaser.State {
     this.fontsLoaded = this.fontsLoaded.bind(this)
 
     const lang = this.getParameterByName('lang')
-    const theme = this.getParameterByName('theme')
+    const sound = this.getParameterByName('sound')
     const user = this.getParameterByName('user')
     const roomID = this.getParameterByName('roomID')
 
     this.game.lang = lang || 'en'
-    this.game.theme = theme || 'safari'
+    this.game.sound = sound || 'true'
     this.game.roomID = roomID
     this.game.user = user
 

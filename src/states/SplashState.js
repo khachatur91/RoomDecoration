@@ -22,31 +22,23 @@ export default class SplayState extends Phaser.State {
       sound.urls[0] = sound.urls[0].replace('%{ext}', this.game.lang === 'en' ? 'm4a' : 'mp3')
     })
     console.log(audioData)
-    this.game.load.pack('initial', `assets/assets-${this.game.theme}.json`)
+    this.game.load.pack('initial', `assets/assets.json`)
     this.game.load.pack('sounds', null, audioData)
-    this.game.load.json('locale', `assets/${this.game.theme}/locale/${this.game.lang}/animals.json`)
+    this.game.load.json('locale', `assets/locale/${this.game.lang}/locale.json`)
     this.game.load.start()
   }
 
   create () {
     this.isLoaded = true
     if (this.isTweenComplete) {
-      if (this.game.user) {
-        this.state.start(Game.STATE_GAME_STUDENT)
-      } else {
-        this.state.start(Game.STATE_GAME)
-      }
+      this.state.start(Game.STATE_GAME)
     }
   }
 
   onTweenComplete () {
     this.isTweenComplete = true
     if (this.isLoaded) {
-      if (this.game.user) {
-        this.state.start(Game.STATE_GAME_STUDENT)
-      } else {
-        this.state.start(Game.STATE_GAME)
-      }
+      this.state.start(Game.STATE_GAME)
     }
   }
 }

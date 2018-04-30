@@ -12,14 +12,12 @@ export default class Game extends Phaser.Game {
   static STATE_BOOT = 'Boot'
   static STATE_SPLASH = 'Splash'
   static STATE_GAME = 'Game'
-  static STATE_GAME_STUDENT = 'GameStudent'
 
   constructor () {
     super(config.gameWidth, config.gameHeight, Phaser.CANVAS, '', null)
     this.state.add(Game.STATE_BOOT, BootState, false)
     this.state.add(Game.STATE_SPLASH, SplashState, false)
     this.state.add(Game.STATE_GAME, GameState, false)
-    this.state.add(Game.STATE_GAME_STUDENT, GameStateStudent, false)
     this.state.start(Game.STATE_BOOT)
   }
 }

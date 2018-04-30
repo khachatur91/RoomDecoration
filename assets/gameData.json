@@ -1,66 +1,118 @@
 {
-  "levels": [
-    [
-      {
-        "key": "chicken",
-        "x": 480,
-        "y": 850,
-        "scale": -0.3
-      },
-      {
-        "key": "cow",
-        "x": 1300,
-        "y": 1090,
-        "scale": -0.8
-      },
-      {
-        "key": "rabbit",
-        "x": 100,
-        "y": 950,
-        "scale": -0.3
-      },
-      {
-        "key": "turkey",
-        "x": 800,
-        "y": 900,
-        "scale": 0.3
-      },
-      {
-        "key": "donkey",
-        "x": 1700,
-        "y": 1000,
-        "scale": -0.6
-      },
-      {
-        "key": "duck",
-        "x": 3200,
-        "y": 900,
-        "scale": 0.3
-      },
-      {
-        "key": "sheep",
-        "x": 2550,
-        "y": 1100,
-        "scale": 0.5
-      },
-      {
-        "key": "pig",
-        "x": 2350,
-        "y": 900,
-        "scale": 0.4
-      },
-      {
-        "key": "goat",
-        "x": 3700,
-        "y": 1100,
-        "scale": 0.7
-      },
-      {
-        "key": "horse",
-        "x": 2740,
-        "y": 750,
-        "scale": 0.4
-      }
-    ]
+  "scenes": [
+    {
+      "key": "accessories",
+      "backgrounds": [
+        "Background"
+      ],
+      "categories":[
+        {
+          "key": "main",
+          "items": [
+            {
+              "key": "computer",
+              "image": "computer"
+            },
+            {
+              "key": "pillow",
+              "image": "pillow"
+            },
+            {
+              "key": "plant",
+              "image": "plant"
+            },
+            {
+              "key": "trophy",
+              "image": "trophy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "amusementPark1",
+      "backgrounds": [
+        "Background"
+      ],
+      "categories":[
+        {
+          "key": "main",
+          "items": [
+            {
+              "key": "beachUmbrella1",
+              "image": "beachUmbrealla1"
+            },
+            {
+              "key": "beachUmbrella2",
+              "image": "beachUmbrella2"
+            },
+            {
+              "key": "canteen1",
+              "image": "canteen1"
+            },
+            {
+              "key": "canteen2",
+              "image": "canteen2"
+            },
+            {
+              "key": "circus",
+              "image": "circus"
+            },
+            {
+              "key": "direction",
+              "image": "direction"
+            },
+            {
+              "key": "houseGreen1",
+              "image": "houseGreen1"
+            },
+            {
+              "key": "houseGreen2",
+              "image": "houseGreen2"
+            },
+            {
+              "key": "houseBrown1",
+              "image": "houseBrown1"
+            },
+            {
+              "key": "houseBrown2",
+              "image": "houseBrown2"
+            },
+            {
+              "key": "housePink",
+              "image": "housePink"
+            },
+            {
+              "key": "largeClock",
+              "image": "largeClock"
+            },
+            {
+              "key": "parkGate",
+              "image": "parkGate"
+            },
+            {
+              "key": "restaurant",
+              "image": "restaurant"
+            },
+            {
+              "key": "roundBouts",
+              "image": "roundBouts"
+            },
+            {
+              "key": "swing",
+              "image": "swing"
+            },
+            {
+              "key": "trainRide",
+              "image": "trainRide"
+            },
+            {
+              "key": "waterfall",
+              "image": "waterfall"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

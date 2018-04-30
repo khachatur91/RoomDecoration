@@ -47,13 +47,4 @@ export default class Client {
     console.log(`sendClick ${data}`)
     this.socket.emit('studentClick', data)
   }
-
-  /**
-   * Request for selecting an animal (tutor request)
-   * @param animalKey
-   */
-  selectAnimal (animalKey) {
-    console.log(`selectAnimal ${animalKey}`)
-    this.socket.emit('tutorSelectAnimal', {name: animalKey})
-  }
 }
