@@ -2,6 +2,14 @@
   "initial": [
     {
       "type": "atlas",
+      "key": "ui",
+      "textureURL": "assets/atlas/ui.png",
+      "atlasURL": "assets/atlas/ui.json",
+      "atlasData": null,
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
       "key": "amusementPark1",
       "textureURL": "assets/atlas/amusementPark1.png",
       "atlasURL": "assets/atlas/amusementPark1.json",

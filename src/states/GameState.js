@@ -11,26 +11,33 @@ export default class GameState extends Phaser.State {
   static STATE_INIT = 3
 
   init () {
-      this.game.stage.disableVisibilityChange = true
+    this.game.stage.disableVisibilityChange = true
       // default settings
-      this.settings = {
-          enableVoice: true,
-          enableLabel: true,
-          enablePinyin: false
+    this.settings = {
+      enableVoice: true,
+      enableLabel: true,
+      enablePinyin: false
+    }
+    this.game.currentScene = 'amusementPark1'
+    this.stage.backgroundColor = '#9df6e4'
+
+    this.locale = this.game.cache.getJSON('locale')
+    this.gameData = this.game.cache.getJSON('gameData')
+
+    this.audioManager = AudioManager.instance
+
+    this.gameContainer = this.game.add.group()
+    this.createBackground()
+
+    for (let i = 0; i < this.gameData.scenes.length; i++) {
+      if (this.gameData.scenes[i].key === this.game.currentScene) {
+        this.items = this.gameData.scenes[i]
+        break
       }
+    }
+    this.hud = new Hud(this.game, this.items)
 
-      this.stage.backgroundColor = '#9df6e4'
-
-      this.locale = this.game.cache.getJSON('locale')
-
-      this.audioManager = AudioManager.instance
-
-      this.gameContainer = this.game.add.group()
-      this.hud = new Hud(this.game, this.items)
-
-      this.createBackground()
-
-      this.gameState = GameState.STATE_INIT
+    this.gameState = GameState.STATE_INIT
   }
 
   screenshot (addLabel) {
